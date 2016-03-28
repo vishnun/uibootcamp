@@ -1,0 +1,35 @@
+{
+  "name": "uibootcamp",
+  "version": "1.0.0",
+  "description": "UI bootcamp participant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vishnun/uibootcamp.git"
+  },
+  "keywords": [
+    "ui",
+    "bootcamp",
+    "uibootcamp"
+  ],
+  "author": "Vishnu Narang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnun/uibootcamp/issues"
+  },
+  "homepage": "https://github.com/vishnun/uibootcamp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
